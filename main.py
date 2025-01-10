@@ -1,6 +1,6 @@
-from classes.aspire_plus import AspirePlus
+from classes.wida import Wida
 
 
-a1 = AspirePlus({}, "23-24")
+a1 = Wida({})
 print(a1.get_cols())
 print(a1.get_students())
