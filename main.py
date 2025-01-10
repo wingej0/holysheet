@@ -1,4 +1,4 @@
-from builders.quartiles.quartiles import get_quartile_levels
+from cols.wida import wida_cols
 
 
-get_quartile_levels()
+wida_cols()
