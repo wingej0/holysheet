@@ -54,7 +54,7 @@ def get_attendance_data():
         attendance_data.append(student_attendance_data)
 
     # Configure logging with timestamp format
-    logging.basicConfig(filename='/home/wingej0/dev/holysheet/logs/attendance_log.txt', format='%(asctime)s %(message)s', level=logging.INFO)
+    logging.basicConfig(filename='logs/attendance_log.txt', format='%(asctime)s %(message)s', level=logging.INFO)
 
     for record in attendance_data:
         matching_record = students.find_one({"Student ID": record["Student ID"]})

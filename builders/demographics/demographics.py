@@ -11,7 +11,7 @@ from tools.parsers import remove_empty_string_values
 
 def get_demographic_data():
     # Configure logging with timestamp format
-    logging.basicConfig(filename='/home/wingej0/dev/holysheet/logs/demographics_log.txt', format='%(asctime)s %(message)s', level=logging.INFO)
+    logging.basicConfig(filename='logs/demographics_log.txt', format='%(asctime)s %(message)s', level=logging.INFO)
 
     # Open a requests session to login to Aspire
     session = requests.Session()

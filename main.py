@@ -1,4 +1,4 @@
-from builders.wida.wida import get_wida_data
+from builders.quartiles.quartiles import get_quartile_levels
 
 
-get_wida_data()
+get_quartile_levels()
