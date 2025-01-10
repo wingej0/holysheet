@@ -19,7 +19,7 @@ class Acadience:
         self.windows = windows
         self.cols = cols_db['acadience']
 
-    def getCols(self):
+    def get_cols(self):
         cols_dict = list(self.cols.find())
         acadience_cols = list(set([c for cs in [col[self.assessment] for col in cols_dict if col['grade'] in self.grades] for c in cs]))
         db_cols = []
@@ -38,8 +38,8 @@ class Acadience:
         db_cols.insert(0, 'Student ID')
         return db_cols
 
-    def getStudents(self):
-        students_cols = self.getCols()
+    def get_students(self):
+        students_cols = self.get_cols()
         df = pd.DataFrame(list(students.find(self.query)))
         # Make sure all the keys are actually present in df
         check_keys = list(df.keys())
