@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore secrets
+credentials/
+creds/
+logs/
+builders/acadience/longitudinal_data/
+builders/aspire_plus/data/
+builders/rise/data/
