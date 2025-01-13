@@ -1,4 +1,4 @@
-from queries.elementary.bes_holysheet import update_bes_data
+from queries.secondary.arl_holysheet import update_arl_holysheet
 
 
-update_bes_data()
+update_arl_holysheet()
