@@ -1,4 +1,4 @@
-from queries.secondary.arl_holysheet import update_arl_holysheet
+from queries.elementary.bes_white_mesa import update_bes_white_mesa_sheet
 
 
-update_arl_holysheet()
+update_bes_white_mesa_sheet()

@@ -104,6 +104,3 @@ def update_arl_holysheet():
 
     arl_sheet.update([df.columns.values.tolist()] + df.fillna('').values.tolist())
 
-
-if __name__ == '__main__':
-    update_arl_holysheet()
