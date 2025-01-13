@@ -6,6 +6,9 @@ def acadience_cols():
         {
             'grade' : 'k', 
             'reading' : [
+                'Reading Composite Score',
+                'Reading Composite Status',
+                'Reading Composite Pathway',
                 'LNF Score',
                 'FSF Score',
                 'FSF Status',
@@ -15,26 +18,26 @@ def acadience_cols():
                 'NWF CLS Status',
                 'NWF WWR Score',
                 'NWF WWR Status',
-                'Reading Composite Score',
-                'Reading Composite Status',
-                'Reading Composite Pathway',
                 'Lexile Reading'
             ],
             'math' : [
+                'Math Composite Score',
+                'Math Composite Status',
+                'Math Composite Pathway',
                 'BQD Score',
                 'BQD Status',
                 'NIF Score',
                 'NIF Status',
                 'NNF Score',
                 'NNF Status',
-                'Math Composite Score',
-                'Math Composite Status',
-                'Math Composite Pathway'
             ]
         },
         {
             'grade' : '1st',
             'reading' : [
+                'Reading Composite Score',
+                'Reading Composite Status',
+                'Reading Composite Pathway',
                 'PSF Score',
                 'PSF Status',
                 'NWF CLS Score',
@@ -49,12 +52,12 @@ def acadience_cols():
                 'Retell Status',
                 'Retell Quality Score',
                 'Retell Quality Status',
-                'Reading Composite Score',
-                'Reading Composite Status',
-                'Reading Composite Pathway',
                 'Lexile Reading'
             ],
             'math' : [
+                'Math Composite Score',
+                'Math Composite Status',
+                'Math Composite Pathway',
                 'NIF Score',
                 'NIF Status',
                 'NNF Score',
@@ -65,14 +68,14 @@ def acadience_cols():
                 'MNF Status',
                 'Comp Score',
                 'Comp Status',
-                'Math Composite Score',
-                'Math Composite Status',
-                'Math Composite Pathway'
             ]
         },
         {
             'grade' : '2nd', 
             'reading' : [
+                'Reading Composite Score',
+                'Reading Composite Status',
+                'Reading Composite Pathway',
                 'NWF CLS Score',
                 'NWF CLS Status',
                 'NWF WWR Score',
@@ -81,24 +84,24 @@ def acadience_cols():
                 'ORF WC Status',
                 'ORF Accuracy Score',
                 'ORF Accuracy Status',
-                'Reading Composite Score',
-                'Reading Composite Status',
-                'Reading Composite Pathway',
                 'Lexile Reading'
             ],
             'math' : [
+                'Math Composite Score',
+                'Math Composite Status',
+                'Math Composite Pathway',
                 'Comp Score',
                 'Comp Status',
                 'C&A Score',
                 'C&A Status',
-                'Math Composite Score',
-                'Math Composite Status',
-                'Math Composite Pathway'
             ]
         },
         {
             'grade' : '3rd', 
             'reading' : [
+                'Reading Composite Score',
+                'Reading Composite Status',
+                'Reading Composite Pathway',
                 'ORF WC Score',
                 'ORF WC Status',
                 'ORF Accuracy Score',
@@ -109,24 +112,24 @@ def acadience_cols():
                 'Retell Quality Status',
                 'Maze Adjusted Score',
                 'Maze Status',
-                'Reading Composite Score',
-                'Reading Composite Status',
-                'Reading Composite Pathway',
                 'Lexile Reading'
             ],
             'math' : [
+                'Math Composite Score',
+                'Math Composite Status',
+                'Math Composite Pathway',
                 'Comp Score',
                 'Comp Status',
                 'C&A Score',
                 'C&A Status',
-                'Math Composite Score',
-                'Math Composite Status',
-                'Math Composite Pathway'
             ]
         },
         {
             'grade' : '4th', 
             'reading' : [
+                'Reading Composite Score',
+                'Reading Composite Status',
+                'Reading Composite Pathway',
                 'ORF WC Score',
                 'ORF WC Status',
                 'ORF Accuracy Score',
@@ -137,24 +140,24 @@ def acadience_cols():
                 'Retell Quality Status',
                 'Maze Adjusted Score',
                 'Maze Status',
-                'Reading Composite Score',
-                'Reading Composite Status',
-                'Reading Composite Pathway',
                 'Lexile Reading'
             ],
             'math' : [
+                'Math Composite Score',
+                'Math Composite Status',
+                'Math Composite Pathway',
                 'Comp Score',
                 'Comp Status',
                 'C&A Score',
                 'C&A Status',
-                'Math Composite Score',
-                'Math Composite Status',
-                'Math Composite Pathway'
             ]
         },
         {
             'grade' : '5th',
             'reading' : [
+                'Reading Composite Score',
+                'Reading Composite Status',
+                'Reading Composite Pathway',
                 'ORF WC Score',
                 'ORF WC Status',
                 'ORF Accuracy Score',
@@ -165,24 +168,24 @@ def acadience_cols():
                 'Retell Quality Status',
                 'Maze Adjusted Score',
                 'Maze Status',
-                'Reading Composite Score',
-                'Reading Composite Status',
-                'Reading Composite Pathway',
                 'Lexile Reading'
             ],
             'math' : [
+                'Math Composite Score',
+                'Math Composite Status',
+                'Math Composite Pathway',
                 'Comp Score',
                 'Comp Status',
                 'C&A Score',
                 'C&A Status',
-                'Math Composite Score',
-                'Math Composite Status',
-                'Math Composite Pathway'
             ]
         },
         {
             'grade' : '6th', 
             'reading' : [
+                'Reading Composite Score',
+                'Reading Composite Status',
+                'Reading Composite Pathway',
                 'ORF WC Score',
                 'ORF WC Status',
                 'ORF Accuracy Score',
@@ -193,19 +196,16 @@ def acadience_cols():
                 'Retell Quality Status',
                 'Maze Adjusted Score',
                 'Maze Status',
-                'Reading Composite Score',
-                'Reading Composite Status',
-                'Reading Composite Pathway',
                 'Lexile Reading'
             ],
             'math' : [
+                'Math Composite Score',
+                'Math Composite Status',
+                'Math Composite Pathway',
                 'Comp Score',
                 'Comp Status',
                 'C&A Score',
                 'C&A Status',
-                'Math Composite Score',
-                'Math Composite Status',
-                'Math Composite Pathway'
             ]
         },        
     ]

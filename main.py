@@ -1,4 +1,4 @@
-from cols.wida import wida_cols
+from queries.elementary.bes_holysheet import update_bes_data
 
 
-wida_cols()
+update_bes_data()
