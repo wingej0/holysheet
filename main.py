@@ -1,4 +1,4 @@
-from queries.elementary.bes_white_mesa import update_bes_white_mesa_sheet
+from queries.district.white_mesa import update_white_mesa_data
 
 
-update_bes_white_mesa_sheet()
+update_white_mesa_data()
