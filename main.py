@@ -1,4 +1,4 @@
-from queries.district.white_mesa import update_white_mesa_data
+from queries.secondary.sjhs_holysheet import update_sjhs_data
 
 
-update_white_mesa_data()
+update_sjhs_data()
