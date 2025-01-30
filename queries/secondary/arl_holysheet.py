@@ -76,9 +76,9 @@ def update_arl_holysheet():
         'TOSCRF Grade Equivalent (BOY)',
         'TOSCRF Percentile Rank (BOY)',
         'TOSCRF Descriptive Term (BOY)',
-        # 'TOSCRF Grade Equivalent (MOY)',
-        # 'TOSCRF Percentile Rank (MOY)',
-        # 'TOSCRF Descriptive Term (MOY)',
+        'TOSCRF Grade Equivalent (MOY)',
+        'TOSCRF Percentile Rank (MOY)',
+        'TOSCRF Descriptive Term (MOY)',
     ]
 
     df = pd.DataFrame(list(students.find(query)))

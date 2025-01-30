@@ -29,6 +29,8 @@ def update_white_mesa_data():
         'Term 1 Total Absences',
         'Term 2 Tardies',
         'Term 2 Total Absences',
+        'Term 3 Tardies',
+        'Term 3 Total Absences',
         'YTD Tardies',
         'YTD Total Absences',
 
@@ -44,6 +46,10 @@ def update_white_mesa_data():
         'Reading Composite Status (BOY)',
         'Math Composite Score (BOY)',
         'Math Composite Status (BOY)',
+        'Reading Composite Score (MOY)',
+        'Reading Composite Status (MOY)',
+        'Math Composite Score (MOY)',
+        'Math Composite Status (MOY)',
 
         # Aspire Plus
         '23-24 Composite Scale Score',

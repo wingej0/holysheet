@@ -68,6 +68,32 @@ def update_bes_data():
         'Maze Adjusted Score (BOY)', 
         'Maze Status (BOY)', 
         'Lexile Reading (BOY)', 
+
+        # MOY (Ordered)
+        'Reading Composite Score (MOY)', 
+        'Reading Composite Status (MOY)', 
+        'Reading Composite Score (MOY) Class Rank', 
+        'Reading Composite Score (MOY) Quartile', 
+        'LNF Score (MOY)', 
+        'FSF Score (MOY)', 
+        'FSF Status (MOY)',
+        'PSF Score (MOY)', 
+        'PSF Status (MOY)',
+        'NWF CLS Score (MOY)', 
+        'NWF CLS Status (MOY)',
+        'NWF WWR Score (MOY)', 
+        'NWF WWR Status (MOY)', 
+        'ORF WC Score (MOY)',  
+        'ORF WC Status (MOY)',
+        'ORF Accuracy Score (MOY)', 
+        'ORF Accuracy Status (MOY)',
+        'Retell Score (MOY)', 
+        'Retell Status (MOY)', 
+        'Retell Quality Score (MOY)', 
+        'Retell Quality Status (MOY)', 
+        'Maze Adjusted Score (MOY)', 
+        'Maze Status (MOY)', 
+        'Lexile Reading (MOY)', 
     ]
     reading_df = reading_df.loc[:, reading_cols]
 

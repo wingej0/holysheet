@@ -20,6 +20,8 @@ def get_quartile_levels():
         'Grade Level',
         'Reading Composite Score (BOY)',
         'Math Composite Score (BOY)',
+        'Reading Composite Score (MOY)',
+        'Math Composite Score (MOY)',
         '23-24 ELA Scale Score',
         '23-24 Math Scale Score',
         '23-24 STEM Scale Score',
